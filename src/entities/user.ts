@@ -8,6 +8,7 @@ class UserDataController {
         try {
             const userRef = db.collection('UserCollection').doc(user.idUser ?? '');
             await userRef.set({
+                idUser: user.idUser,
                 nameUser: user.nameUser,
                 emailUser: user.emailUser,
                 contactUser: user.contactUser

@@ -34,4 +34,5 @@ class Server {
     }
 }
 
-export default Server
+const server = new Server()
+server.run();

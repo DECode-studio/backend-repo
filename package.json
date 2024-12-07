@@ -6,8 +6,8 @@
   "author": "Nur Wahid Azhar | nur.wahid.azhar@gmail.com | https://www.linkedin.com/in/nur-wahid-azhar-675163a6 | https://porto-ku.excitech.id/user?id=nur.wahid.azhar",
   "license": "MIT",
   "scripts": {
-    "start": "ts-node src/core/index",
-    "dev": "ts-node-dev src/core/index"
+    "start": "ts-node src/core/app",
+    "dev": "ts-node-dev src/core/app"
   },
   "dependencies": {
     "@types/cors": "^2.8.15",
